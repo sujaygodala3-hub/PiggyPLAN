@@ -1,0 +1,37 @@
+#nav-list { 
+    display: flex; 
+} 
+  
+#nav-list li { 
+    list-style-type: none; 
+    padding: 20px; 
+    border-radius: 10px; 
+    transition: background 1s; 
+} 
+  
+#nav-list li:hover { 
+    cursor: pointer; 
+    background-color: rgb(49 49 217); 
+    font-weight: 600; 
+} 
+  
+.theme { 
+    padding: 13px; 
+    margin: 13px; 
+    border: none; 
+    border-radius: 10px; 
+    font-weight: 600; 
+} 
+  
+#normal { 
+    background-color: #fff; 
+} 
+  
+#dark { 
+    background-color: #000; 
+    color: #fff; 
+} 
+  
+.theme:hover { 
+    cursor: pointer; 
+}

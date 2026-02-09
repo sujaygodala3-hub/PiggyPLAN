@@ -1,0 +1,105 @@
+.pqModalBackdrop {
+    position: fixed;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.65);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 24px;
+    z-index: 9999;
+  }
+  
+  .pqModalCard {
+    width: min(760px, 100%);
+    max-height: 85vh;
+    overflow: auto;
+    border-radius: 18px;
+    background: #121212;
+    border: 1px solid rgba(255, 255, 255, 0.12);
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.55);
+    padding: 18px 18px 16px;
+  }
+  
+  .pqModalHeader {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 16px;
+  }
+  
+  .pqModalTitle {
+    margin: 0;
+    font-size: 22px;
+    line-height: 1.2;
+  }
+  
+  .pqModalClose {
+    border: none;
+    background: transparent;
+    color: rgba(255, 255, 255, 0.85);
+    font-size: 28px;
+    cursor: pointer;
+    padding: 6px 10px;
+    border-radius: 10px;
+  }
+  
+  .pqModalClose:hover {
+    background: rgba(255, 255, 255, 0.08);
+  }
+  
+  .pqModalSubtitle {
+    margin: 10px 0 14px;
+    color: rgba(255, 255, 255, 0.75);
+  }
+  
+  .pqModalBody {
+    display: grid;
+    gap: 12px;
+  }
+  
+  .pqSection {
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    border-radius: 14px;
+    padding: 12px 14px;
+  }
+  
+  .pqSection h3 {
+    margin: 0 0 6px;
+    font-size: 16px;
+  }
+  
+  .pqSection ul {
+    margin: 0;
+    padding-left: 18px;
+    color: rgba(255, 255, 255, 0.82);
+  }
+  
+  .pqModalFooter {
+    margin-top: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+    flex-wrap: wrap;
+  }
+  
+  .pqPrimaryBtn {
+    border: none;
+    cursor: pointer;
+    border-radius: 12px;
+    padding: 10px 14px;
+    font-weight: 600;
+    background: #f4c542; /* adjust to your gold if needed */
+    color: #111;
+  }
+  
+  .pqPrimaryBtn:hover {
+    filter: brightness(0.95);
+  }
+  
+  .pqHint {
+    color: rgba(255, 255, 255, 0.65);
+    font-size: 13px;
+  }
+  
